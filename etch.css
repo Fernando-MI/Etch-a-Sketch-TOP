@@ -1,0 +1,29 @@
+.line{
+    display: flex;
+    margin-left: 30vw;
+    margin-right: 30vw;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: auto;
+    justify-content: center;
+
+}
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    
+}
+
+span{
+    width: 1vw;
+    height: 1vw;
+    opacity: 0;
+    background-color: black;
+}
+span:hover{
+    opacity: 1;
+    color: black;
+    background-color: black;
+}
