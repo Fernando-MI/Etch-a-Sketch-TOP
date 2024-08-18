@@ -1,7 +1,7 @@
 body{
     margin: 0;
     padding: 0;
-    border: 0;
+    border: 0;background-color: #f7e8b2;
 }
 .line{
     display: flex;
@@ -12,7 +12,7 @@ body{
     border: 0;
     width: auto;
     justify-content: center;
-    background-color: red;
+    background-color: #f7e8b2;
     max-width: 800px;
 
 }
@@ -24,7 +24,7 @@ body{
     border-style: solid;
     border-radius: 10px;
     border-color: black;
-    background-color: red;
+    background-color: #f7e8b2;
     
 }
 .bigboard{
@@ -37,7 +37,7 @@ body{
 
 span{
     width: 1vw;
-    height: 1vw;
+    height: 1vw; 
     opacity: 0;
     background-color: black;
 }
@@ -45,4 +45,20 @@ span:hover{
     opacity: 1;
     color: black;
     background-color: black;
+}
+
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+nav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding-bottom: 50px;
+}
+button{
+    font-size: 32px;;
+    border-radius: 12px;
+
 }
