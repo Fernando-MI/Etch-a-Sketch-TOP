@@ -23,6 +23,7 @@ function createBoards(lineL){
         }
         container.appendChild(line);
     }
+    document.querySelector(".bigboard").appendChild(container);
 }
 
 

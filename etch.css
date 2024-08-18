@@ -1,20 +1,39 @@
-.line{
-    display: flex;
-    margin-left: 30vw;
-    margin-right: 30vw;
-    margin: 0;
-    padding: 0;
-    border: 0;
-    width: auto;
-    justify-content: center;
-
-}
 body{
     margin: 0;
     padding: 0;
     border: 0;
+}
+.line{
+    display: flex;
+    /* margin-left: 30vw;
+    margin-right: 30vw; */
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    width: auto;
+    justify-content: center;
+    background-color: red;
+    max-width: 800px;
+
+}
+.board{
+    display: flex;
+    flex-direction: column;
+    border-width: 10px;
+    border: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    background-color: red;
     
 }
+.bigboard{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    
+}
+
 
 span{
     width: 1vw;
